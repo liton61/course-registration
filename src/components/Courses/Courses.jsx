@@ -8,6 +8,8 @@ import Calculation from '../Calculation/Calculation';
 const Courses = () => {
     const [courses, setCourses] = useState([]);
     const [selectedCourse, setSelectedCourse] = useState([]);
+    const [remaining, setRemaining] = useState([0]);
+    const [totalCredit, setTotalCredit] = useState([]);
     useEffect(() => {
         fetch('/public/data.json')
             .then(res => res.json())
@@ -15,7 +17,24 @@ const Courses = () => {
     }, [])
     const handleSelect = (course) => {
         const isExist = selectedCourse.find((item) => item.id == course.id);
-        console.log(isExist);
+        let count = course.credit;
+        if (isExist) {
+            alert("Already booked !")
+        }
+        else {
+            selectedCourse.forEach((item) => {
+                count = count + item.credit
+            })
+            const totalRemainingCredit = 20 - count;
+            if (count > 20) {
+                return alert("You cant't add more than 20 credit !")
+            }
+            else {
+                setRemaining(totalRemainingCredit);
+                setTotalCredit(count);
+                setSelectedCourse([...selectedCourse, course]);
+            }
+        }
 
     }
 
