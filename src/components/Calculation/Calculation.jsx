@@ -13,7 +13,7 @@ const Calculation = ({ selectedCourse, remaining }) => {
             {
                 selectedCourse.map((course, index) => (
                     <div>
-                        <h5 className='list' key={course.id}>{index+1}. {course.courseName}</h5>
+                        <h5 className='list' key={course.id}>{index + 1}. {course.courseName}</h5>
                     </div>
                 ))
             }

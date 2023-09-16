@@ -2,7 +2,7 @@
     {
         "id": 1,
         "courseName": "Introduction to C Programming",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972...",
         "price": 15000,
         "credit": 1,
         "img": "https://i.postimg.cc/FRnghcfb/1.png"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "courseName": "Introduction to Algorithms",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Introduction to Algorithms is a book on computer programming by Thomas H. Cormen, Charles E...",
         "price": 25000,
         "credit": 2,
         "img": "https://i.postimg.cc/Jnh5wKh4/2.jpg"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "courseName": "Introduction to C++ for DSA",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "DSA is an essential subject in computer science that focuses on implementing various Data...",
         "price": 10000,
         "credit": 10,
         "img": "https://i.postimg.cc/Jn7PrMp8/3.png"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "courseName": "Basic Data Structures",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": " A data structure is a storage that is used to store and organize data. It is a way of arranging data on...",
         "price": 35000,
         "credit": 5,
         "img": "https://i.postimg.cc/q7s5Bm0s/4.jpg"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "courseName": "Introduction to OOP Python",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "In Python, object-oriented Programming (OOPs) is a programming paradigm that uses...",
         "price": 19000,
         "credit": 5,
         "img": "https://i.postimg.cc/W16mBH0g/5.png"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "courseName": "Software Engineering",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Software engineering is the branch of computer science that deals with the design, development, testing,and...",
         "price": 23000,
         "credit": 2,
         "img": "https://i.postimg.cc/nh7dTdXy/6.jpg"
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "courseName": "AWS, Cloud Computing",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "AWS services offer scalable solutions for compute, storage, databases, analytics, and more. Explore all...",
         "price": 35000,
         "credit": 5,
         "img": "https://i.postimg.cc/sf602GFN/7.jpg"
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "courseName": "Database (MySQL)",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "MySQL is a widely used relational database management system (RDBMS). MySQL is free and open...",
         "price": 19000,
         "credit": 5,
         "img": "https://i.postimg.cc/ZqbP4xLg/8.jpg"
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "courseName": "Problem-Solving Part",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Problem solving is the process of defining a problem, identifying its root cause, and implementing the...",
         "price": 23000,
         "credit": 2,
         "img": "https://i.postimg.cc/YSHdP1gh/9.png"
