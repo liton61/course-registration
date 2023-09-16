@@ -1,7 +1,7 @@
 . We have created  Json file
 . Dynamically loaded data from Json file
 . Used handle to select course
-. Course registration system
+. This project is course registration system
 . There are some validation like, maximum 20 credit you can add and you can't add same course more than one time
 
 

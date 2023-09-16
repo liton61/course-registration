@@ -115,3 +115,30 @@ img {
     font-size: 14px;
     font-weight: 400;
 }
+
+/* responsive for mobile */
+@media screen and (max-width: 425px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .card-container {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .calculation {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 0px;
+    }
+}
