@@ -75,3 +75,37 @@ img {
     font-size: 16px;
     font-weight: 600;
 }
+.calculation {
+    width: 20%;
+    border-radius: 12px;
+    padding: 10px;
+    background: #FFF;
+    height: 320px;
+}
+
+.course-name {
+    color: #1C1B1B;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.remaining-credit {
+    color: #2F80ED;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.total-credit {
+    color: rgba(28, 27, 27, 0.80);
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.list {
+    color: rgba(28, 27, 27, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+}

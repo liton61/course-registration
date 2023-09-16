@@ -7,6 +7,8 @@ import "../Calculation/Calculation.css";
 const Calculation = () => {
     return (
         <div>
+            <h5 className='remaining-credit'>Credit Hour Remaining hrs</h5>
+            <hr></hr>
             <h3 className='course-name'>Course Name</h3>
         </div>
     );

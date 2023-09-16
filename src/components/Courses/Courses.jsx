@@ -39,6 +39,8 @@ const Courses = () => {
                 </div>
                 <div className="calculation">
                     <Calculation></Calculation>
+                    <hr></hr>
+                    <p className='total-credit'>Total Credit Hour : </p>
                 </div>
             </div>
         </div>
