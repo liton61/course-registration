@@ -4,12 +4,19 @@
 import React from 'react';
 import "../Calculation/Calculation.css";
 
-const Calculation = () => {
+const Calculation = ({ selectedCourse, remaining }) => {
     return (
         <div>
-            <h5 className='remaining-credit'>Credit Hour Remaining hrs</h5>
+            <h5 className='remaining-credit'>Credit Hour Remaining {remaining} hrs</h5>
             <hr></hr>
             <h3 className='course-name'>Course Name</h3>
+            {
+                selectedCourse.map((course) => (
+                    <ol>
+                        <li className='list' key={course.id}>{course.courseName}</li>
+                    </ol>
+                ))
+            }
         </div>
     );
 };

@@ -15,11 +15,12 @@ const Courses = () => {
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
+
     const handleSelect = (course) => {
         const isExist = selectedCourse.find((item) => item.id == course.id);
         let count = course.credit;
         if (isExist) {
-            alert("Already booked !")
+            alert("Already selected !")
         }
         else {
             selectedCourse.forEach((item) => {
@@ -63,9 +64,9 @@ const Courses = () => {
                     </div>
                 </div>
                 <div className="calculation">
-                    <Calculation></Calculation>
+                    <Calculation selectedCourse={selectedCourse} remaining={remaining} totalCredit={totalCredit}></Calculation>
                     <hr></hr>
-                    <p className='total-credit'>Total Credit Hour : </p>
+                    <p className='total-credit'>Total Credit Hour : {totalCredit}</p>
                 </div>
             </div>
         </div>
