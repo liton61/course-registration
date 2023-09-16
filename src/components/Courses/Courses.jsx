@@ -8,10 +8,10 @@ import Calculation from '../Calculation/Calculation';
 const Courses = () => {
     const [courses, setCourses] = useState([]);
     const [selectedCourse, setSelectedCourse] = useState([]);
-    const [remaining, setRemaining] = useState([0]);
+    const [remaining, setRemaining] = useState([20]);
     const [totalCredit, setTotalCredit] = useState([]);
     useEffect(() => {
-        fetch('/public/data.json')
+        fetch('/data.json')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
