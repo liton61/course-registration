@@ -11,10 +11,10 @@ const Calculation = ({ selectedCourse, remaining }) => {
             <hr></hr>
             <h3 className='course-name'>Course Name</h3>
             {
-                selectedCourse.map((course) => (
-                    <ol>
-                        <li className='list' key={course.id}>{course.courseName}</li>
-                    </ol>
+                selectedCourse.map((course, index) => (
+                    <div>
+                        <h5 className='list' key={course.id}>{index+1}. {course.courseName}</h5>
+                    </div>
                 ))
             }
         </div>
