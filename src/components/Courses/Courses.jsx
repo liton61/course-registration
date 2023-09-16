@@ -7,11 +7,17 @@ import Calculation from '../Calculation/Calculation';
 
 const Courses = () => {
     const [courses, setCourses] = useState([]);
+    const [selectedCourse, setSelectedCourse] = useState([]);
     useEffect(() => {
         fetch('/public/data.json')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
+    const handleSelect = (course) => {
+        const isExist = selectedCourse.find((item) => item.id == course.id);
+        console.log(isExist);
+
+    }
 
     return (
         <div>
@@ -31,7 +37,7 @@ const Courses = () => {
                                         <p><i className="fa-solid fa-dollar-sign"></i> Price :{course.price}</p>
                                         <p><i className="fa-solid fa-book-open"></i> Credit :{course.credit} hrs</p>
                                     </div>
-                                    <button className='select-btn'>Select</button>
+                                    <button onClick={() => handleSelect(course)} className='select-btn'>Select</button>
                                 </div>
                             ))
                         }
