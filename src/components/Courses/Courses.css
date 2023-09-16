@@ -1,0 +1,77 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #F3F3F3;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #1C1B1B;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 250px;
+    height: 385px;
+    border-radius: 12px;
+    padding: 10px;
+    background: #FFF;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.course-title {
+    color: #1C1B1B;
+    font-size: 16px;
+}
+
+.course-description {
+    color: rgba(28, 27, 27, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.price-credit {
+    display: flex;
+    justify-content: space-around;
+    color: rgba(28, 27, 27, 0.60);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.select-btn {
+    display: block;
+    text-align: center;
+    background-color: antiquewhite;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    background: #2F80ED;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
